@@ -1,7 +1,7 @@
 " ===============================================================
-" night-owl
+" nightowl
 " 
-" URL: https://github.com/haishanh/night-owl.vim
+" URL: https://github.com/coffee-monk/nightowl
 " Author: Haishan
 " License: MIT
 " Last Change: 2020/04/19 12:37
@@ -12,7 +12,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="night-owl"
+let g:colors_name="nightowl"
 
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE

@@ -1,7 +1,7 @@
 " ============================================================
 " nightowl
 " 
-" URL: https://github.com/haishanh/night-owl.vim
+" URL: https://github.com/coffee-monk/nightowl
 " Author: Haishan
 " License: MIT
 " Last Change: 2020/04/19 12:37
