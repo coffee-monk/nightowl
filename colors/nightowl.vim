@@ -40,7 +40,7 @@ hi StatusLine guifg=NONE ctermfg=255 guibg=#82aaff ctermbg=235 gui=NONE cterm=NO
 hi StatusLineNC guifg=#637777 ctermfg=243 guibg=#82aaff ctermbg=235 gui=NONE cterm=NONE
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#637777 ctermfg=238 guibg=NONE ctermbg=233 gui=bold cterm=NONE
+hi EndOfBuffer guifg=#82aaff ctermfg=238 guibg=NONE ctermbg=233 gui=bold cterm=NONE
 hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
