@@ -15,10 +15,10 @@ endif
 let g:colors_name="nightowl"
 
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
-hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
+hi LineNr guifg=#444444 ctermfg=238 guibg=NONE ctermbg=233 gui=NONE cterm=NONE
+hi CursorLine guibg=NONE ctermbg=235 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=NONE ctermbg=235 gui=NONE cterm=NONE
+hi ColorColumn guibg=NONE ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi DiffAdd guifg=#addb67 ctermfg=149 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffChange guifg=#ecc48d ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -26,8 +26,8 @@ hi DiffDelete guifg=#ff5874 ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi DiffText guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
 hi diffAdded guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi diffRemoved guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
-hi VertSplit guifg=#777777 ctermfg=243 gui=NONE cterm=NONE
-hi Folded guifg=#777777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi VertSplit guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
+hi Folded guifg=#011627 ctermfg=243 guibg=#637777 ctermbg=233 gui=NONE cterm=NONE
 hi FoldColumn guifg=#333333 ctermfg=236 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch guifg=#eeeeee ctermfg=255 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
@@ -36,11 +36,11 @@ hi PMenu guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
 hi Search guifg=#011627 ctermfg=233 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi StatusLine guifg=#eeeeee ctermfg=255 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#777777 ctermfg=243 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
+hi StatusLine guifg=#637777 ctermfg=255 guibg=#637777 ctermbg=235 gui=NONE cterm=NONE
+hi StatusLineNC guifg=#637777 ctermfg=243 guibg=#637777 ctermbg=235 gui=NONE cterm=NONE
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
-hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
+hi EndOfBuffer guifg=#637777 ctermfg=238 guibg=NONE ctermbg=233 gui=bold cterm=NONE
 hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
