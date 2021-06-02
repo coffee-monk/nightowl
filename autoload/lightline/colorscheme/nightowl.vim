@@ -27,9 +27,9 @@ let s:p.replace.left = [[["#011627", 235], ["#ff5874", 204]], [["#ff5874", 253],
 let s:p.replace.middle = [[["#ff5874", 253], ["NONE", 235]]]
 let s:p.replace.right = [[["#011627", 253], ["#ff5874", 235]], [["#ff5874", 235], ["NONE", 204]]]
 
-let s:p.visual.left = [[["#011627", 235], ["#c792ea", 176]], [["#c792ea", 253], ["NONE", 235]]]
-let s:p.visual.middle = [[["#c792ea", 253], ["NONE", 235]]]
-let s:p.visual.right = [[["#011627", 253], ["#c792ea", 235]], [["#c792ea", 235], ["NONE", 176]]]
+let s:p.visual.left = [[["#011627", 235], ["#daa3ff", 176]], [["#daa3ff", 253], ["NONE", 235]]]
+let s:p.visual.middle = [[["#daa3ff", 253], ["NONE", 235]]]
+let s:p.visual.right = [[["#011627", 253], ["#daa3ff", 235]], [["#daa3ff", 235], ["NONE", 176]]]
 
 let s:p.tabline.left = [[["#aaaaaa", 253], ["NONE", 235]]]
 let s:p.tabline.tabsel = [[["NONE", 235], ["#82aaff", 111]]]
